@@ -1,0 +1,9 @@
+#disable-touchpad
+#place in /usr/share/gnome/autostart/
+[Desktop Entry]
+Type=Application
+Name=Touchpad disable
+Comment=disable touchpad on startup
+Exec="synclient TouchpadOff=1"
+OnlyShowIn=GNOME;
+X-GNOME-Autostart-Phase=Application
